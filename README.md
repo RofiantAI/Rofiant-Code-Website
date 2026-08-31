@@ -1,42 +1,14 @@
-# sv
+# Rofiant Code Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Official website for [Rofiant Code](https://github.com/RofiantAI/Rofiant-Code), a terminal-native coding agent that reads codebases, edits files, runs commands, and completes development tasks.
 
-## Creating a project
+Visit [code.rofiant.ca](https://code.rofiant.ca).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## What the site covers
 
-```sh
-# create a new project
-npx sv create my-app
-```
+- Product features and terminal workflow
+- macOS, Linux, and Windows installation options
+- Commands, configuration, skills, and subagent documentation
+- Privacy and terms
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv@0.17.0 create --template minimal --types ts --add prettier eslint ai-tools="ide:claude-code+delivery:plugin" --install bun RofiantCodeSite
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Built with SvelteKit, Svelte, TypeScript, and Tailwind CSS.
